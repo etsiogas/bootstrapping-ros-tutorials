@@ -69,5 +69,5 @@
         <visualize>true</visualize>
       </sensor>
     </gazebo>
-	</xacro:macro>
+  </xacro:macro>
 </robot>
