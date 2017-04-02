@@ -12,7 +12,7 @@
   <xacro:include filename="$(find turtlebot_description)/urdf/sensors/hokuyo.urdf.xacro"/>
 
   <kobuki/>
-  <stack_hexagons                 parent="base_link"/>
-  <sensor_hokuyo				          parent="base_link"/>
+  <stack_hexagons parent="base_link"/>
+  <sensor_hokuyo  parent="base_link"/>
 
 </robot>
