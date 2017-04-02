@@ -1,3 +1,5 @@
+<!-- EDIT THIS FILE AT: /opt/ros/indigo/share/turtlebot_description/urdf -->
+
 <?xml version="1.0"?>
 <robot name="turtlebot_gazebo" xmlns:xacro="http://ros.org/wiki/xacro">
   <!-- Microsoft Kinect / ASUS Xtion PRO Live for simulation -->
@@ -44,7 +46,7 @@
   <xacro:macro name="hokuyo_laser">
     <gazebo reference="base_laser_link">
       <sensor type="ray" name="laser">
-				<pose>0.01 0 0.0175 0 -0 0</pose>
+	<pose>0.01 0 0.0175 0 -0 0</pose>
         <ray>
           <scan>
             <horizontal>
