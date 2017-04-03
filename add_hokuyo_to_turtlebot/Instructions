@@ -1,0 +1,5 @@
+1. Create at 
+2. Create at
+3. Edit at 
+4. Edit at 
+5. Add the following line at the end of your ~/.bashrc: export TURTLEBOT_3D_SENSOR="hokuyo"
