@@ -1,5 +1,3 @@
-<!-- CREATE THIS FILE AT: /opt/ros/indigo/share/turtlebot_description/urdf/sensors -->
-
 <?xml version="1.0"?>
 <robot name="sensor_hokuyo" xmlns:xacro="http://ros.org/wiki/xacro">
   <xacro:include filename="$(find turtlebot_description)/urdf/turtlebot_gazebo.urdf.xacro"/>
