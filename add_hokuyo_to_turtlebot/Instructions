@@ -2,4 +2,5 @@
 2. Create kobuki_hexagons_hokuyo.urdf.xacro at '/opt/ros/indigo/share/turtlebot_description/robots' as presented
 3. (sudo) Edit '/opt/ros/indigo/share/turtlebot_description/urdf/turtlebot_gazebo.urdf.xacro' as presented
 4. (sudo) Edit '/opt/ros/indigo/share/turtlebot_description/urdf/turtlebot_library.urdf.xacro' as presented
-5. Add the following line at the end of your ~/.bashrc: export TURTLEBOT_3D_SENSOR="hokuyo"
+5. (sudo) Copy file '/opt/ros/indigo/share/gazebo_plugins/test/multi_robot_scenario/meshes/laser/hokuyo.dae' to '/opt/ros/indigo/share/turtlebot_description/meshes/sensors'
+6. Add the following line at the end of your ~/.bashrc: export TURTLEBOT_3D_SENSOR="hokuyo"
